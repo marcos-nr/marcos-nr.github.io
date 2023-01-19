@@ -1,0 +1,210 @@
+body{
+    background-color: #a88889;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#foto-de-perfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+/*********************************Formato Texto********************************/
+h1 {
+    font-size: 60px;
+    margin: 20px auto 20px auto;
+}
+
+p, h4, li{
+    font-size: 18px;
+}
+
+h3{
+    font-size: 22px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+h2, h3, p, ol{
+    margin: 5px;
+}
+
+.div-exp h2 {
+    display: inline-block;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    background: #856466;
+}
+
+.div-exp h3,h4,p {
+    margin: 5px;
+}
+
+.años, ol{
+    margin-bottom: 30px;
+}
+
+ol {
+    text-align: left;
+    list-style-type: disc;
+}
+
+#div_ancla a{
+    color: rgb(0, 0, 0);
+    background: lightblue;
+}
+
+
+@media only screen and (max-width: 600px) {
+    /************************************Contenedores*******************************************/
+    #div_ancla{
+        width: 100%;
+        top: 10px;
+    }
+
+    #nombre{
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .columna-personal{
+        background: white;
+        color:black;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .columna-exp{
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .barra-separadora{
+        width: 80%; 
+        height: 3px;
+        background: #856466;
+        margin: 10px auto;
+    }
+
+    .contenedor-personal{
+        width: 100%;
+        float:left;
+        margin: 15px auto;
+    }
+
+    .contenedor-exp-1, .contenedor-exp-2{
+        width: 100%;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    /************************************Contenedores*******************************************/
+    #div_ancla{
+        width: 100%;
+        top: 10px;
+    }
+    
+    #nombre{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .columna-personal{
+        background: white;
+        color:black;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .columna-exp{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .barra-separadora{
+        width: 80%; 
+        height: 3px;
+        background: #856466;
+        margin: 10px auto;
+    }
+
+    .contenedor-personal{
+        width: 50%;
+        float:left;
+        margin: 15px auto;
+    }
+
+    .contenedor-exp-1{
+        width: 50%;
+        float: left;
+        margin-top: 15px;
+    }
+
+    .contenedor-exp-2{
+        width: 100%;
+        float: left;
+        margin-top: 20px;
+    }
+
+    .contenedor-exp-2 .div-exp{
+        float: left;
+        width: 33%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    /************************************Contenedores*******************************************/
+    #div_ancla{
+        display: none;
+    }
+   
+    #nombre{
+        float: right;
+        width: 70%;
+        text-align: center;
+    }
+    
+    .columna-personal{
+        background: white;
+        color:black;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .columna-exp{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .barra-separadora{
+        width: 80%; 
+        height: 3px;
+        background: #856466;
+        margin: 10px auto;
+    }
+
+    .contenedor-personal{
+        width: 30%;
+        float:left;
+        margin: 15px auto;
+    }
+
+    .contenedor-exp-1, .contenedor-exp-2{
+        width: 35%;
+        float: left;
+    }
+
+    .contenedor-exp-2 .div-exp{
+        float: left;
+        width: 100%;
+    }
+}
+
+

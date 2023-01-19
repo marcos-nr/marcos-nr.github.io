@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Proyecto final - CV</title>
+</head>
+<body>
+
+    <div id="div_ancla">
+        <a class="ancla" href="#datos_personales">Datos Personales</a>
+        <a class="ancla" href="#contacto">Contacto</a>
+        <a class="ancla" href="#experiencia_laboral">Experiencia laboral</a>
+        <a class="ancla" href="#formación_académica">Formación académica</a>
+        <a class="ancla" href="#otros">Otros</a>   
+    </div>
+
+   
+    <div id="nombre">
+        <h1>VOLKAN MERTOGLU</h1>
+   </div>
+   
+    <div class="contenedor-personal">
+        <div class="columna-personal">
+
+            <img id="foto-de-perfil" src="https://randomuser.me/api/portraits/men/61.jpg" alt="Foto de perfil">
+
+            <div class="div-personal">
+                    <h2>SOBRE MI</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque tempus eros et 
+                        pellentesque. Curabitur id turpis arcu. Donec convallis erat at arcu malesuada, ut congue 
+                        risus accumsan. 
+                    </p>
+            </div>
+
+            <div class="barra-separadora"></div>
+
+            <div class="div-personal">
+                    <h2 id="datos_personales">DATOS PERSONALES</h2>
+                    <h3>Fecha de nacimiento</h3>
+                    <p>19/10/1971</p>
+                    <h3>Nacionalidad</h3>
+                    <p>Turquía</p>
+                    <h3>Residencia actual</h3>
+                    <p>Esmirna - Turquía</p>
+            </div>
+
+            <div class="barra-separadora"></div>
+
+            <div class="div-personal">
+            <h2 id="contacto">CONTACTO</h2>
+            <h3>Número de teléfono</h3>
+            <p>(856)-649-7352</p>
+            <h3>E-mail</h3>
+            <p>v.mertoglu@example.com</p>
+            <h3>WEB</h3>
+            <p> <a href="https://www.google.com/">www.unsitioincreible.com</a></p>
+            </div>
+
+        </div>
+
+    </div> 
+
+   <div class="contenedor-exp-1">
+        <div class="columna-exp">
+
+            <div class="div-exp">
+                <h2 id="experiencia_laboral">EXPERIENCIA LABORAL</h2>
+                <h3>Casa de gobierno Esmirna</h3>
+                <h4>Traductor turco-árabe</h4>
+                <button id="boton-mostrar-1" onclick="mostrar('experiencia-1', 'boton-mostrar-1')">Mostrar más</button>
+                <div id="experiencia-1" style="display: none;">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Proin sed eros non sem lobortis malesuada. Sed ornare pulvinar ornare.</p>
+                    <button onclick="ocultar('experiencia-1', 'boton-mostrar-1')">Mostrar menos</button>
+                </div>
+                <p class="años">1996 - 2014</p>
+
+                <h3>Traductor a distancia</h3>
+                <h4>Traductor turco, árabe, español, inglés</h4>
+                <button id="boton-mostrar-2" onclick="mostrar('experiencia-2', 'boton-mostrar-2')">Mostrar más</button>
+                <div id="experiencia-2" style="display: none;">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vehicula nec tortor quis scelerisque. 
+                    Sed ornare pulvinar ornare.</p>
+                    <button onclick="ocultar('experiencia-2', 'boton-mostrar-2')">Mostrar menos</button>
+                </div>
+                <p class="años">2014 - Actualidad</p>
+            </div>
+
+            <div class="div-exp">
+                <h2 id="formación_académica">FORMACIÓN ACADÉMICA</h2>
+                <h3>Universidad de Estambul</h3>
+                <h4>Licenciatura en letras</h4>
+                <p class="años">1989 - 1997</p>
+                <h4>Profesorado en inglés</h4>
+                <p class="años">2000 - 2005</p>
+            </div>
+
+        </div>
+
+   </div> 
+
+
+   <div class="contenedor-exp-2">
+
+        <div class="columna-exp">
+
+            <div class="div-exp">
+                <h2 id="otros">HABILIDADES</h2>
+                <ol>
+                    <li>Lorem ipsum dolor sit amet, consectetur.</li>
+                    <li>Pellentesque eleifend, diam ut.</li>
+                    <li>Sed venenatis mi nec elit.</li>
+                    <li> Ut sit amet velit ut neque porta sagittis.</li>
+                </ol>
+            </div>
+        
+            <div class="div-exp">
+                <h2>IDIOMAS</h2>
+                <ol>
+                    <li>Turco</li>
+                    <li>Árabe</li>
+                    <li>Español</li>
+                    <li> Inglés</li>
+                </ol>
+            </div>
+
+            <div class="div-exp">
+                <h2>INFORMÁTICA</h2>
+                <ol>
+                    <li>Word - Avanzado</li>
+                    <li>Excel - Intermedio</li>
+                    <li>Archivos .txt</li>
+                    <li>Formato de subtitulos .srt</li>
+                </ol>
+            </div>
+
+        </div>
+    </div> 
+   
+
+    <script src="eventos.js"></script>
+</body>
+</html>
